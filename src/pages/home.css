@@ -1,0 +1,23 @@
+.Heading h1{
+    padding:30px 30px;
+    font-size:30px;
+    font-weight:500;
+    flex-direction: column;
+ 
+    color:white;
+    line-height: 3.3rem;
+
+}
+span{
+    font-weight:800;
+    color:#007bff;
+}
+
+@media (max-width:600px){
+    .Heading h1{
+        font-size: 20px;
+        line-height: 2.3rem;
+    }
+}
+
+
