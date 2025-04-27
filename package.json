@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -47,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+>>>>>>> 8357d28520e51c4211e3ec680188f7110a148bb5
   }
 }
