@@ -121,11 +121,12 @@ const Modal = styled.div`
 `;
 
 const ModalContent = styled.div`
-  background: rgb(0,0,0,0.2);
+  background: black;
   padding: 30px;
   border-radius: 8px;
+  font-size:20px;
   width: 80%;
-  max-width: 600px;
+  max-width: 700px;
   max-height: 80%;
   overflow-y: auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -257,8 +258,9 @@ const QuizForm = () => {
       {showModal && (
         <Modal>
           <ModalContent>
-            <h2 style={{color:'black'}}>Generated Quiz Questions</h2>
+            <h2 style={{color:'white'}}>Generated Quiz Questions</h2>
             <pre>{quiz}</pre>
+            
             <button onClick={() => setShowModal(false)}>Close</button>
           </ModalContent>
         </Modal>
