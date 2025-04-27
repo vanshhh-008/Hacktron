@@ -183,7 +183,7 @@ const QuizForm = () => {
     }
 
     try {
-      const response = await axios.post('https://hacktron-backend.onrender.com/generate-quiz', {
+      const response = await axios.post('http//localhost:8000/generate-quiz', {
         topic,
         difficulty,
         numQuestions,
